@@ -189,7 +189,7 @@ nav{
     max-width: 80vw;
   }
   .section-r p{
-    font-size: 1vh;
+    font-size: 2vh;
     max-width: 80vw;
   }
   .heading-main{
@@ -232,6 +232,7 @@ nav{
   main div{
     padding-left:5vw;
   }
+
   main button{
     height:5vh;
     width:40vw;
