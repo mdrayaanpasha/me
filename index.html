@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+  <div id="main">
+  <nav>
+    <h2><a href="./" style="color: white; text-decoration: none;">Rayaan Pasha</a></h2>
+    <ul>
+      <li><a href="./projects.html">Projects</a></li>
+      <li><a href="./teaching.html">Work Experience</a></li>
+      <li><a href="./Education.html">Education</a></li>
+    </ul>
+  </nav>
+  <main>
+    <div>
+      <center>
+      <p class="heading-main">Find,<i style="color: #616368;">Think</i>,Solve.</p>
+      <p>Hello, World. I’m Rayaan Pasha, A MERN Stack Dev, with Passion for Data Structures & Algorithms</p>
+      <button onclick="github()"><i class="fa fa-github"></i> Github</button>    <button onclick="linkedin()"> <i class="fa fa-linkedin-square"></i> LinkedIn</button>
+    </center>
+  </div>
+  <img src="homepageImgs/home-page.jpeg" alt="">
+
+   
+    
+  </main>
+
+   <section class="section-r normal-wrap" id="projects">
+    <img src="homepageImgs/projects.jpeg" alt="">
+    <div>
+      <h1>A Glimpse into My Creative Processy</h1>
+      <p>Built multiple MERN stack applications, including e-commerce platforms, social networking sites, and data structure projects, emphasizing on scalable development and problem-solving.</p>
+      <button onclick="projects()">View Details &rarr;</button>
+    </div>
+  </section>
+  <section class="section-r " id="skills" style="background-color: #16202c;color: white;">
+   
+    <div>
+      <h1>A Display of My Technical Prowess</h1>
+      <p>I possess a diverse set of skills, including DSA, full stack web development (MERN stack), and PHP-SQL development. I can efficiently solve problems, build scalable web applications, and manage databases, making me a versatile asset for complex projects.</p>   
+      <button style="background-color: #fff;color: black;" onclick="skills()">View Details &rarr;</button>
+    </div>
+    <img src="homepageImgs/skills.jpeg" alt="">
+  </section>
+
+  <section class="section-r normal-wrap" style="background-color: #F4F2F2;">
+    <img src="homepageImgs/teaching.jpeg" alt="">
+    <div>
+      <h1>A showcase of my Teaching journey</h1>
+      <p>Instructed high school students in math and computer science, fostering understanding and confidence. Guided students in problem-solving and critical thinking. Empowered students to excel in their studies and develop a love for learning.</p>   
+      <button onclick="teaching()">View Details &rarr;</button>
+    </div>
+  </section>
+
+  <section class="section-r" id="education" style="background-color: #BB845A;">
+    
+    <div>
+      <h1>A Look at My Formal Schooling</h1>
+      <p>Pursuing Bachelor of Computer Applications (BCA) degree, building on a strong foundation in computer science and commerce from high school. My academic journey has equipped me with a solid understanding of computer systems.</p>
+      <button onclick="education()">View Details &rarr;</button>
+    </div>
+    <img src="homepageImgs/edu.jpeg" alt="">
+  </section>
+
+  <section class="section-r normal-wrap" id="education" >
+    <img src="homepageImgs/course.jpeg" alt="">
+    <div>
+      <h1>Check Fun Classes in Act!</h1>
+      <p>A quick overview of the online courses I completed in core computer science, economics, programming problems, and algorithms</p>      
+      <button onclick="courses()">View Details &rarr;</button>
+    </div>
+   
+  </section>
+
+  <section class="section-r " style="background-color: #87cbce;">
+    
+    <div>
+      <h1>Connect With Me!</h1>
+      <p>You Can DM me on Linkedin: <a href="">Linkedin</a>, or You can connect with me on <a href="">Github</a> or email me at: Mohdrayaanpasha@gmail.com</p>
+      <button onclick="mail()">Quick Mail &rarr;</button>
+    </div>
+    <img src="homepageImgs/contact.jpeg" alt="">
+  </section>
+
+
+</div>
+  
+ <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+ <script>
+  const scroll = new LocomotiveScroll({
+    el: document.querySelector('#main'),
+    smooth: true
+});
+function projects(){
+  window.location.href="./projects.html"
+}
+function skills(){
+  window.location.href="./skills.html"
+}
+
+function teaching(){
+  window.location.href="./teaching.html"
+}
+
+function courses(){
+  window.location.href="./courses.html"
+}
+
+function education(){
+  window.location.href="./education.html"
+}
+function github(){
+  window.location.href="https://github.com/mdrayaanpasha/"
+}
+function linkedin(){
+  window.location.href="https://linkedin.com/in/mdrayaanpasha/"
+}
+
+function mail(){
+  window.location.href="mailto:mohdrayaanpasha@gmail.com"
+}
+ </script>
+
+</body>
+</html>
