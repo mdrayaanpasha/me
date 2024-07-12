@@ -246,7 +246,7 @@ button {
 }
 
 button:hover {
-  background-color: #616368;
+  background-color: grey;
   color: white;
 }
 
@@ -349,5 +349,5 @@ img:hover {
 }
 button:hover{
   cursor:pointer;
-background-color:#616368 !important;
+background-color: grey !important;
 }
